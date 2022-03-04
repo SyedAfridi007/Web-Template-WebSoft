@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Soft</title>
+  
+    <link rel="stylesheet" href="style.css"/>
+
+     <!----Animation AOS CDN -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+     <script src="https://kit.fontawesome.com/64d58efce2.js"crossorigin="anonymous"></script>
+
+      <!----Nav Click Auto Scroll cdn -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+<!------------------Preloade---------------------->
+
+
+<div id="preloader"></div>
+
+
+<!------------------Header---------------------->
+
+<section>
+  <div class="header-container">
+    
+
+    <div class="header-row-1">
+      <div class="header-col">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" alt=""></a> 
+      </div>
+      </div>
+      <div class="navigation">
+
+        <div class="nav-links" id="nl">
+          <i class="fas fa-times" onclick="HideMenu()"></i>
+          <ul>
+            <li><a href="#home" class="active" >Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#join">Join us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <i class="fas fa-bars" onclick="ShowMenu()"></i>
+     </div>
+  </div>
+</section>
+
+<section id="home">
+  <div class="banner">
+    <div class="banner-row">
+      <div class="banner-col-1">
+        <img src="img/home.svg">
+      </div>
+
+      <div class="banner-text">
+        <h1> Hey! <br> Welcome To <span>  Web Soft </span></h1>
+        <p>We are here for to build full responsive website, customizing website, <br> website boosting, & website maintanace for you. </p>
+        <a href="login.html" class="main-btn" >Book us Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+    
+<!------------------Product---------------------->
+
+<section id="product">
+  <div class="product-container" data-aos="zoom-in">
+    <h1>Build Your Website With Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim culpa accusantium soluta, </p>
+
+    <div class="product-row">
+      
+      <div class="product-left-col" >
+
+        <div class="website" data-aos="fade-up-left" >
+
+          <img src="img/ecommerce-website.svg" >
+
+             <div class="layer">
+               <h3>Ecommerce Website</h3>
+               <h4>Start From $499</h4>
+             </div>
+       </div>
+
+        <div class="website" data-aos="fade-up-right">
+          <img src="img/brand-website.svg" >
+          <div class="layer">
+            <h3>Brand Website</h3>
+            <h4>Start From $399</h4>
+          </div>
+        </div>
+
+        <div class="website"data-aos="fade-down-left">
+          <img src="img/blog-website.svg" >
+             <div class="layer">
+                <h3>Blog Website</h3>
+                <h4>Start From $299</h4>
+            </div>
+         </div>
+
+        <div class="website" data-aos="fade-down-right">
+          <img src="img/wordpress-website.svg" >
+          <div class="layer">
+              <h3>Wordpress Website</h3>
+              <h4>Start From $199</h4>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="product-right-col">
+        <img src="img/build-website.svg" data-aos="slide-up">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------Servicese---------------------->
+
+<section id="service">
+  <div class="services-container">
+    <h1>Services We are Provide</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim culpa accusantium soluta, </p>
+
+    <div class="services-row">
+      <div class="services-col">
+
+        <div class="services"data-aos="flip-up" >
+          <img src="img/wbsite-responsive.svg" alt="">
+          <h3>Responsive Website</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nulla sint, eligendi enim
+             minima expedita est culpa ipsum aliquid repellendus, alias numquam optio repudiandae dolore soluta,
+             accusantium labore quod natus?
+          </p>
+        </div>
+        <div class="services" data-aos="slide-down">
+          <img src="img/website-boost.svg" alt="">
+          <h3>Boosting Website</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nulla sint, eligendi enim
+             minima expedita est culpa ipsum aliquid repellendus, alias numquam optio repudiandae dolore soluta,
+             accusantium labore quod natus?
+         </p>
+        </div>
+        <div class="services" data-aos="slide-up">
+          <img src="img/website-customize.svg" alt="">
+          <h3>Customizing Website</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nulla sint, eligendi enim
+             minima expedita est culpa ipsum aliquid repellendus, alias numquam optio repudiandae dolore soluta,
+             accusantium labore quod natus?
+         </p>
+        </div>
+        <div class="services" data-aos="slide-down">
+          <img src="img/website-maintanence.svg" alt="">
+          <h3>Manitanace Website</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nulla sint, eligendi enim
+             minima expedita est culpa ipsum aliquid repellendus, alias numquam optio repudiandae dolore soluta,
+             accusantium labore quod natus?
+         </p>
+        </div>
+
+        <div class="services"data-aos="flip-up">
+          <img src="img/website-security.svg" alt="">
+          <h3>Website Security</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nulla sint, eligendi enim
+             minima expedita est culpa ipsum aliquid repellendus, alias numquam optio repudiandae dolore soluta,
+             accusantium labore quod natus?
+          </p>
+        </div>
+          
+
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!------------------Product Showcase---------------------->
+
+<section id="showcase">
+  <div class="product-showcase-container">
+    <h1>See Our Project ShowCase</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim culpa accusantium soluta, </p>
+    <div class="project-showcase">
+      <div class="project-showcase-1st-row">
+
+        <div class="showcase"data-aos="slide-down">
+          <img src="img/webdevpsycho.png" alt="">
+          <div class="layer-showcase" >
+            <h3>WebDevPsycho Official Website</h3>
+            <a href="http://">Vist Now</a>
+          </div>
+        </div>
+
+        <div class="showcase" data-aos="slide-down">
+          <img src="img/websoft.png" alt="">
+          <div class="layer-showcase">
+            <h3>WebSoft Official Website</h3>
+            <a href="http://" >Vist Now</a>
+          </div>
+        </div>
+       
+      </div>
+
+      <div class="project-showcase-2nd-row">
+
+        
+        <div class="showcase"data-aos="flip-up">
+          <img src="img/mazenda.png" alt="">
+          <div class="layer-showcase">
+            <h3>Mezenda Fashion Official Website</h3>
+            <a href="http://" >Vist Now</a>
+          </div>
+        </div>
+
+        <div class="showcase-main-image" data-aos="zoom-in">
+         <img src="img/our-project.svg" alt="">
+       </div>
+
+
+        <div class="showcase" data-aos="flip-up">
+          <img src="img/sa.png" alt="">
+          <div class="layer-showcase">
+            <h3>Syed Afridi Official Website</h3>
+            <a href="http://" >Vist Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-showcase-3rd-row">
+
+        <div class="showcase"data-aos="slide-up">
+          <img src="img/thebook.png" alt="">
+          <div class="layer-showcase">
+            <h3>TheBook Official Website</h3>
+            <a href="http://"  >Vist Now</a>
+          </div>
+        </div>
+
+        <div class="showcase"data-aos="slide-up">
+          <img src="img/eduford.png" alt="">
+          <div class="layer-showcase">
+            <h3>EduFord Official Website</h3>
+            <a href="http://" >Vist Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!------------------Join Container---------------------->
+
+<section id="join">
+  <div class="join-container">
+    <h1>Join our Devloper Team</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim culpa accusantium soluta, </p>
+
+        <div class="join-row" >
+
+          <div class="join-left-col">
+            <img src="img/join.svg" data-aos="slide-up">
+          </div>
+
+          <div class="join-right-col">
+
+              <div class="join-right-sub-col" data-aos="zoom-out">
+                <img src="img/join-1.svg" alt="">
+
+                    <h3> Become a Front end Web Devlopper</h3>
+
+                    <div class="join-layer">
+
+                      <a href="http://"> Drop Resume  </a>
+
+                    </div>  
+                   
+              </div> 
+
+              <div class="join-right-sub-col" data-aos="zoom-out" >
+                <img src="img/join-2.svg" alt="">
+          
+                    <h3> Become a Back end Web Devlopper</h3>
+                    <div class="join-layer">
+
+                      <a href="http://"> Drop Resume  </a>
+
+                    </div>  
+                 
+              </div>
+              <div class="join-right-sub-col"  data-aos="zoom-out">
+                <img src="img/join-3.svg" alt="">
+                    <h3> Become a SEO & Website Experat</h3> 
+                    <div class="join-layer">
+
+                      <a href="http://"> Drop Resume  </a>
+
+                    </div>    
+                  
+              </div>
+          </div>
+        </div>
+
+        
+  </div>
+</section>
+
+
+<!------------------Contact Container---------------------->
+
+<section id="contact">
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore enim culpa accusantium soluta, </p>
+
+    <div class="contact-row">
+      <div class="contact-left-col" data-aos="flip-up" >
+
+        <h3>Message Us</h3>
+        <div class="contact-left-sub-col"  >
+          <input type="text" placeholder="Name" required  >
+          <input type="email" placeholder="Email" required>
+        </div>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Write here..." cols="30" rows="10"></textarea>
+        <a href="http://">Send Message</a>
+
+        <div class="social" data-aos="zoom-in" >
+          <h3>Follow us on Social Media</h3>
+
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-instagram"></i>
+
+        </div>
+      </div>
+
+      <div class="contact-right-col">
+        <img src="img/contact.svg" data-aos="slide-right">
+      </div>
+    </div>
+
+  </section>
+
+
+
+<!------------------Footer Container---------------------->
+<section>
+  <div class="footer-container">
+    <hr>
+    <h3>Created By <span>Syed Afridi</span> | <i class="far fa-copyright"></i> Web Soft 2020 All rights reserved </h3>
+
+    </h3>
+  </div>
+</section>
+</body>
+</html>
+<!------------------Java-Scrypt---------------------->
+<script>
+
+  var nl = document.getElementById("nl");
+
+  function ShowMenu() 
+  {
+    nl.style.right="0%";
+  }
+  function HideMenu() 
+  {
+    nl.style.right="100%";
+  } 
+
+</script>
+
+<!------------------Animation AOS---------------------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset:200,
+      duration:1300,
+      delay:300,   
+  });
+</script>
+
+<!------------------Preloader---------------------->
+
+<script>
+  var loader = document.getElementById("preloader")
+
+  window.addEventListener("load",function(){
+
+    loader.style.display="none";
+  })
+</script>
+
+
+<!---------------Auto Scroll-------------------->
+
+<script>
+
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 1500,
+    speedAsDuration: true
+  });
+
+</script>
+  
+
+  
